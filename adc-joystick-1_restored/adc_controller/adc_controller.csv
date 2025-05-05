@@ -1,0 +1,19 @@
+# system info adc_controller on 2025.05.04.11:57:14
+system_info:
+name,value
+DEVICE,EP4CE10E22A7
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1746352625
+#
+#
+# Files generated for adc_controller on 2025.05.04.11:57:14
+files:
+filepath,kind,attributes,module,is_top
+simulation/adc_controller.v,VERILOG,,adc_controller,true
+simulation/submodules/altera_up_avalon_adv_adc.v,VERILOG,,adc_controller_adc_mega_0,false
+simulation/submodules/adc_controller_adc_mega_0.v,VERILOG,,adc_controller_adc_mega_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+adc_controller.adc_mega_0,adc_controller_adc_mega_0
